@@ -1,0 +1,180 @@
+/*--Fonts files--*/
+.opn-reg {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.opn-lgt {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.opn-med {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.opn-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+.opn-black {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+/*--Base colors--*/
+/* Main section */
+.main-head {
+  height: 90px;
+  background-color: #f6f6f6;
+}
+.main-head-logo img {
+  vertical-align: inherit;
+}
+.main-head-logo p {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #353535;
+  font-size: 16px;
+}
+.main-head-logo p span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #13aee5;
+  font-size: 20px;
+}
+.main-head-info p {
+  margin-top: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #353535;
+  font-size: 16px;
+}
+.main-head-contacts p.tell {
+  margin-top: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.main-head-contacts p.tell span {
+  color: #13aee5;
+}
+.main-head-contacts p.tell span.address {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #353535;
+}
+.main-nav {
+  height: 70px;
+  background-color: #13aee5;
+}
+.main-nav:hover {
+  cursor: pointer;
+}
+.main-nav-menu {
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.main-nav-menu a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 0px 70px 0px 70px;
+}
+.main-nav-menu a:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.102);
+}
+.main-screen-slider {
+  height: 420px;
+  background-image: url(../img/bgg.jpg);
+  background-position: center center;
+  background-position: no-repeat;
+  background-size: cover;
+}
+.main-screen-slider-box-item h1 {
+  padding-top: 78px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.main-screen-slider-box-item-line {
+  width: 250px;
+  height: 3px;
+  border-radius: 45px;
+  background-color: #13aee5;
+}
+.main-screen-slider-box-item p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.main-screen-slider-box-item button {
+  background-color: #13aee5;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 45px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+}
+/* Products section */
+.products {
+  background-color: #f6f6f6;
+}
+.products-row {
+  margin-top: 48px;
+}
+.products-row-glasses {
+  background-color: #ffffff;
+  margin-left: 30px;
+  display: inline-block;
+  height: 310px;
+  width: 265px;
+}
+/* Section about company */
+.company h3 {
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+.company .line {
+  width: 182px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #13aee5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.company p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: justify;
+}
+.clients-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 140px;
+  border: 1px solid #f6f6f6;
+  margin-bottom: 78px;
+}
+/* Contacts section */
+.contacts-info-item i {
+  color: #13aee5;
+}
+.contacts-info-item p {
+  display: inline-block;
+  padding-left: 10px;
+}

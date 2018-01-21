@@ -1,0 +1,201 @@
+
+/*--Fonts files--*/
+.opn-reg {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+.opn-lgt {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.opn-med {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+.opn-bold {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+.opn-black {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+}
+/*--Base colors--*/
+@blue: #13aee5;
+@blue-hover: #119cce;
+@white: #ffffff;
+@grey: #f6f6f6;
+@black: #353535;
+
+/* Main section */
+
+.main {
+	&-head {
+		height: 90px;
+		background-color: @grey;
+		&-logo {
+			img {
+				vertical-align: inherit;
+			}
+			p {
+				display: inline-block;
+				margin-top: 20px;
+				margin-bottom: 27px;
+				span {
+					.opn-black;
+					color: @blue;
+					font-size: 20px;
+				}
+				.opn-reg;
+				color: @black;
+				font-size: 16px;
+			}
+		}
+		&-info {
+			p {
+				margin-top: 22px;
+				.opn-reg;
+				color: @black;
+				font-size: 16px;
+			}
+		}
+		&-contacts {
+			p.tell {
+				margin-top: 22px;
+				.opn-bold;
+				font-size: 24px;
+				span {
+					color: @blue;
+				}
+				span.address {
+					.opn-reg;
+					font-size: 15px;
+					color: @black;
+				}
+			}
+		}
+	}
+	&-nav {
+		height: 70px;
+		background-color: @blue;
+		&:hover {
+			cursor: pointer;
+		}
+		&-menu {
+			padding-top: 26px;
+			padding-bottom: 26px;
+			a {
+				.opn-bold;
+				font-size: 14px;
+				color: @white;
+				padding: 0px 70px 0px 70px;
+				&:hover {
+				text-decoration: none;
+				background-color: rgba(0,0,0,0.102);
+			}
+		}
+	}
+}
+	&-screen-slider {
+		height: 420px;
+		background-image: url(../img/bgg.jpg);
+		background-position: center center;
+		background-position: no-repeat;
+		background-size: cover;
+		&-box-item {
+			h1 {
+				padding-top: 78px;
+				.opn-bold;
+				font-size: 44px;
+				color: @white;
+				margin-bottom: 25px;
+			}
+			&-line {
+				width: 250px;
+				height: 3px;
+				border-radius: 45px;
+				background-color: @blue;
+			}
+			p {
+				.opn-lgt;
+				font-size: 17px;
+				color: @white;
+				margin-top: 25px;
+				margin-bottom: 40px;
+			}
+			button {
+				background-color: @blue;
+				border: none;
+				border-radius: 5px;
+				padding: 18px 45px;
+				.opn-bold;
+				color: @white;
+				font-size: 13px;
+			}
+		}
+	}
+}
+
+/* Products section */
+
+.products {
+	background-color: @grey;
+	&-row {
+		margin-top: 48px;
+	}
+}
+.products-row-glasses {
+			background-color: @white;
+			margin-left: 30px;
+			display: inline-block;
+			height: 310px;
+			width: 265px;
+		}
+
+/* Section about company */
+
+.company {
+	h3 {
+		margin-top: 50px;
+		.opn-reg;
+		font-size: 30px;
+	}
+	.line {
+		width: 182px;
+		height: 3px;
+		border-radius: 5px;
+		background-color: @blue;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	p {
+		.opn-lgt;
+		font-size: 16px;
+		text-align: justify;
+	}
+}
+.clients-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 210px;
+	height: 140px;
+	border: 1px solid @grey;
+	margin-bottom: 78px;
+}
+
+/* Contacts section */
+
+.contacts {
+	&-info {
+		&-item {
+			i {
+				color: @blue;
+			}
+			p {
+				display: inline-block;
+				padding-left: 10px;
+			}
+		}
+	}
+}
